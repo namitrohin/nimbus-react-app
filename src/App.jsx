@@ -10,7 +10,7 @@ import OrderB2CMain from './page/Orders/b2c/OrderB2CMain';
 import CreateForwardOrder from './page/Orders/b2c/CreateForwardOrder';
 import CreateReverseOrder from './page/Orders/b2c/CreateReverseOrder';
 import CreateQc from './page/Orders/b2c/CreateQc';
-import ComingSoon from './component/ComingSoon';
+import ComingSoon from './page/ComingSoon';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -20,17 +20,17 @@ const router = createBrowserRouter([
     path: '/login',
     element: <Login />,
   },
-  {
-    path: '/dash',
-    element: <Mainlayout />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: '/dash',
-        element: <Faq />,
-      },
-    ],
-  },
+  // {
+  //   path: '/dash',
+  //   element: <Mainlayout />,
+  //   errorElement: <ErrorPage />,
+  //   children: [
+  //     {
+  //       path: '/dash',
+  //       element: <Faq />,
+  //     },
+  //   ],
+  // },
   {
     path: '/b2b',
     element: <Mainlayout />,
