@@ -4,7 +4,7 @@ import ErrorPage from './component/ErrorPage';
 import Home from './component/Home';
 import Mainlayout from './component/Mainlayout';
 import Login from './page/auth/Login';
-import OrdersB2BMain from './page/Orders/b2b/OrdersB2BMain';
+import OrdersB2BMain from './page/Orders/B2B/OrdersB2BMain';
 import CreateOrder from './page/Orders/B2B/CreateOrder';
 import OrderB2CMain from './page/Orders/b2c/OrderB2CMain';
 import CreateForwardOrder from './page/Orders/b2c/CreateForwardOrder';
