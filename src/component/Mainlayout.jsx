@@ -1,13 +1,11 @@
-import Header from "./header";
-import { Outlet } from "react-router-dom";
-import Sidebar from "./Sidebar";
-import { useEffect, useState } from "react";
-import { Button } from "react-bootstrap";
-import { FaBars, FaArrowRightLong } from "react-icons/fa6";
-
+import Header from './Header';
+import { Outlet } from 'react-router-dom';
+import Sidebar from './Sidebar';
+import { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
+import { FaBars, FaArrowRightLong } from 'react-icons/fa6';
 export default function Mainlayout() {
   const [sideBarVisible, setSideBarVisible] = useState(false);
-
   const toggleMenu = () => {
     setSideBarVisible((prev) => !prev);
   };
@@ -17,15 +15,14 @@ export default function Mainlayout() {
         setSideBarVisible(true);
       }
     };
-
     handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
   return (
     <div className="mainpage">
       <aside
-        className={`sidebar_main border-end ${sideBarVisible ? "hide" : ""}`}
+        className={`sidebar_main border-end ${sideBarVisible ? 'hide' : ''}`}
       >
         <Sidebar />
         <Button
@@ -37,7 +34,7 @@ export default function Mainlayout() {
           {sideBarVisible ? <FaArrowRightLong /> : <FaBars />}
         </Button>
       </aside>
-      <main className={`main_wrapper ${sideBarVisible ? "hide" : ""}`}>
+      <main className={`main_wrapper ${sideBarVisible ? 'hide' : ''}`}>
         <Header fromLeft={sideBarVisible} />
         <div className="innerWrapper">
           <Outlet />
