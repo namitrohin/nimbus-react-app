@@ -1,139 +1,70 @@
-:root{
-    --primaryColor200: #284365;
-    --primaryColor400: #12263f;
-    --primaryColor600: #0b1521;
-    --sidemargin: 200px;
-}
-a {
-  color: black !important;
-  text-decoration: none;
-}
-.loginlogo h2 {
-  font-family: 'Work', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 400px;
-  letter-spacing: .2rem;
-}
-h4 {
-  font-size: 1.3rem;
-}
-.loginlogo p {
-  font-family: "Work Sans", sans-serif;
-  font-size: 15px;
-  letter-spacing: .1rem;
-}
+    root{
+       color:  #12263f, #e4e6ea;
+       
+    }
+    a{
+        color: black !important;
+        text-decoration: none;
+    }
+    h2{
+    font-family: Work, sans-serif;
 
-.topheader {
-  position: relative;
-  left: 0;
-  padding: 0.4rem;
-  font-weight: 300 !important;
-  font-size: 0.9rem;
-  background: #fff;
-  border-bottom: 1px solid #e4e6ea;
-}
-.headertwo {
-  width: 100%;
-  border-bottom: 1px solid #dce4ec;
-  background: #fff;
-  box-shadow: none;
-}
+    }
+    h4{
+        font-size: 1.3rem;
 
-.homeheader {
-  display: flex;
-  justify-content: end;
-  color: #fff;
-  font-family: Work, sans-serif;
-  background-color: #12263f;
-  height: 101px;
-}
-.iconsview {
-  color:#284365;
-  font-family: Work, sans-serif;
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  position: relative;
-  top: -20px;
-  margin: 0;
-}
-.homebody {
-  background-color: #fff;
-}
-.fixedbox {
-  position:relative;
-  background-color: #fff;
-  top: -55px;
-}
-
-main.main_wrapper {
-    width: calc(100vw - var(--sidemargin));
-    margin-left: auto;
+    }
+    p{
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .topheader{
+        position: relative;
+        width: 99%;
+        left: 0;
+        padding: 0.4rem;
+        font-weight: 300 !important;
+        font-size: .9rem;
+        background: #fff;
+        border-bottom: 1px solid #e4e6ea;
+       
+    }
+    .headertwo{
+        margin-top: .8rem;
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid #dce4ec;
+        background: #fff;
+        box-shadow: none;
+    }
+    
+    .homeheader{
+       display: flex;
+       justify-content: end;
+       color: #fff;
+       font-family: Work, sans-serif;
+        background-color: #12263f ;
+        height:101px;
+        
+    
+    }
+   .iconsview{
+    font-family: Work, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     position: relative;
-    transition: .3s ease;
-}
-main.main_wrapper.hide{
-    width: 100%;
-}
-main.main_wrapper .toggle_btn {
-    color: var(--primaryColor400);
-    position: absolute;
-    z-index: 1;
-    font-size: 24px;
-    top: 38px;
-    left: 11px;
-}
-.sidebar_main{
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    background-color: var(--primaryColor400);
-    color: #fff;
-    width: var(--sidemargin);
-    transition: .2s ease;
-}
-.sidebar_main.hide{
-    left: -100%;
-}
-.loginlogo{
-  
-  position: relative;
-  top: 100px;
+    top: -20px;
+    margin: 0;
+    
 
+   }
+   .homebody{
+background-color: #fff;   
 }
-.login{
-width:400px;
-  
-}
-.loginbanner{
-  position: relative;
- right: 39px;
- left: 140px;
-  top: 90px;
-border-radius: 3rem;
-  
-}
-
-/* .login_wrapper{
-  background-image: url(./assets/img/loginimg.jpg);
-  background-size:cover;
-  height: 729px;
-  width: 1520px;
-} */
- 
-.loginheader{ font-size: 1.3rem;
-position: relative;
-top: 70px;
-left: 190px;
-text-align: center;
-}
-
-
-.comingSoon{
-  display: flex;
-  margin-top: 300px;
-  margin-left: 480px;
-
-}
+   .fixedbox{
+    position: relative;
+    background-color:#fff;
+    top: -50px;
+   }
