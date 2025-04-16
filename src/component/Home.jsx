@@ -36,11 +36,11 @@ export default function Home() {
                             <Card.Body>
                                 <Row>
                                     <p>onboarding steps</p>
-                                    <Col><Link to="/kyc"><RiAccountCircleFill size={40} className="mb-3" /><p>1. COMPLETE KYC</p></Link></Col>
-                                    <Col><Link to="/pickup"><FaHouseDamage size={40} className="mb-3" /><p>2. ADD PICKUP LOCATION</p></Link></Col>
-                                    <Col><Link to="/store"><FaHouseUser size={40} className="mb-3" /><p>3. ADD YOUR STORE</p></Link></Col>
-                                    <Col><Link to="/wallet"><MdAccountBalanceWallet size={40} className="mb-3" /><p>4. RECHARGE WALLET</p></Link></Col>
-                                    <Col><Link to="/shipment"><FaShuttleVan size={40} className="mb-3" /><p>5. BOOK SHIPMENT</p></Link></Col>
+                                    <Col><Link className="primary-text" to="/Settings/company-profile"><RiAccountCircleFill size={40} className="mb-3" /><p>1. COMPLETE KYC</p></Link></Col>
+                                    <Col><Link className="primary-text" to="/warehouse/AddWareHouse"><FaHouseDamage size={40} className="mb-3" /><p>2. ADD PICKUP LOCATION</p></Link></Col>
+                                    <Col><Link className="primary-text" to=""><FaHouseUser size={40} className="mb-3" /><p>3. ADD YOUR STORE</p></Link></Col>
+                                    <Col><Link className="primary-text" to="/dash"><MdAccountBalanceWallet size={40} className="mb-3" /><p>4. RECHARGE WALLET</p></Link></Col>
+                                    <Col><Link className="primary-text" to="/b2c/all"><FaShuttleVan size={40} className="mb-3" /><p>5. BOOK SHIPMENT</p></Link></Col>
                                 </Row>
                             </Card.Body>
                         </Card>
