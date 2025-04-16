@@ -27,7 +27,7 @@ import registerwap from "../assets/img/registerwap.webp";
 import bannre1 from "../assets/img/img1.jpg";
 import bannre3 from "../assets/img/img3.jpg";
 import bannre4 from "../assets/img/img4.jpg";
-import bannre5 from "../assets/img/img5.avif";
+import bannre5 from "../assets/img/img5.jpg";
 
 export const loginbanner1 = bannre1;
 export const loginbanner3 = bannre3;
