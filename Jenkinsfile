@@ -57,7 +57,7 @@ pipeline {
         stage("npm install"){
             steps{
                     echo 'Cloning Code'
-                    sh 'npm install'
+                    sh 'npm install --force'
                     echo 'npm install done'
                     echo 'Checking dependency versions'
                     sh 'npm list --depth=0'
